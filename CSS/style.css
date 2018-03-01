@@ -1,0 +1,221 @@
+body{
+    background-color: white;/*#FFF3F1;*/
+    font-family: 'Proxima Nova';
+    color : black;
+    position:relative;
+}
+
+/*Menu Navigation....*/
+nav
+{
+	margin-top:20px;
+}
+
+ul{
+	display:flex;
+	list-style-type:none;
+	justify-content:center;
+	padding-top:30px;
+	padding-right:20px;
+	padding-left:180px;
+}
+li
+{
+	letter-spacing:0.2rem;
+	margin-right:25px;
+}
+a
+{
+	color:black;
+	text-decoration:none;
+	transition:all 0.5s;
+}
+a:hover
+{
+	text-decoration:none;
+	color:rgb(160,160,160);
+}
+figure{
+	margin-left:40px;
+	padding-left:40px;
+	float:left;
+	
+}
+.loupe
+{
+	border-color: black;
+}
+.loupe:hover
+{
+	border-color: black;
+	background-color:grey;
+    color: black; 
+}
+.loupe:focus,.loupe:active
+{
+	 box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0,0,0, 0.6);
+	 background-color: white;
+}
+.dropdown-toggle:focus,.dropdown-toggle:active
+{
+	border:1px solid black;
+}
+
+/******/
+h1{
+	letter-spacing:0.32rem;
+}
+h1+p{
+	letter-spacing: 0.26rem;
+	font-size:0.9em;
+}
+
+/* POLICE D'ECRITURE */
+.entete
+{
+	
+	padding-top:50px;
+}
+/*Tableau de vente*/
+.sellboard
+{
+	margin-top:70px;
+}
+
+.titcat
+{
+	border-bottom: 1px solid black;
+}
+.article img
+{
+	padding-top:10px;
+	max-width:100%;
+	height:auto;
+}
+.article p
+{
+	font-size:1.3em;
+	padding-top:5px;
+	text-align:center;
+}
+.categorie
+{
+	padding-bottom:50px;
+}
+/*...*/
+/*PIED DE PAGE*/
+.footix
+{
+	margin-top:50px;
+	bottom:0;
+	background-color:white;
+	padding-bottom:30px;
+	padding-top:20px;
+	text-align:center;
+}
+.footix a:hover
+{
+	text-decoration:none;
+	color:rgb(150,150,150);
+}
+.footix p
+{
+	color:black;
+	display:inline;
+	padding-left:25px;
+	padding-right:25px;
+	
+}
+.footix .l2
+{
+	padding-top:15px;
+	
+}
+.footix .l2 a{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*******/
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+         url('Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+         url('Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+         url('Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*///// PAGE PRODUIT //////*/ 
+
+.photoproduit img{
+    max-width:100%;
+    height:auto;
+}
+
+.boutonA-V button{
+    height: 50px;
+    border-radius: 0px;
+    border: 2px black solid;
+    color: black;
+    background-color: white;
+}
+
+
+
+.boutonA-V button:hover{
+    color: black;
+    background-color: rgb(220,220,220);
+}
+
+.form-control:active
+{
+	border-color: grey;
+	background-color:white;
+}
+
+.form-control:focus {
+  border-color: rgb(220,220,220);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0,0,0, 0.6);
+}
+
+.form-control{
+    border-radius: 0px;
+    border: 2px black solid;
+    color: black;
+}
+ /****PAGE DE CONNEXION****/
+
+.bouton-co-cont{
+	margin-top: 30px;
+}
+ .bouton-co{
+ 	color:black;
+ 	background-color:white;
+ 	border:3px solid black;
+ }
+ .bouton-co:hover{
+ 	color:white;
+ 	background-color:black;
+ 	border:3px solid black; 
+
+ }
+ .creercompte{
+ 	margin-top: 70px;
+ 	font-size:1.5em;
+ 	
+ }
+ .creercompte a{
+ 	transition: all 0.1s;
+ }
+ .creercompte:hover a{
+ 	text-decoration: none;
+ 	color: rgb(160,160,160);
+ }

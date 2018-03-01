@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>MiddleMan</title>
+        <meta charset = "utf-8"/>
+        <meta name = "autor" content = "Yannis, Victor et Iris" />
+        <meta name = "description " content = " MiddleMan " />
+        <meta name="generator" content="Geany 1.29" />
+        <meta name = "keywords" content = " MiddleMan , Edition , spécial , chaussure , vente , rare " />
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "CSS/css/bootstrap.min.css" />
+        <link rel = "stylesheet" href = "CSS/style.css" />
+    </head>
+
+    <body>
+        <div class ="page">
+            <nav class="navbar navbar-expand-sm bg-white navbar-white">
+                  <!-- Brand -->
+                  <div class="container">
+                      <div class="col-md-2">
+                          <a class="navbar-brand" href="index.html"><img src="logo/middleman-logo.svg" width="120" height="120"></a>
+                      </div>
+                      <div class="col-md-push-10">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                                  <a class="nav-link" href="connexion.html">Connexion/Inscription</a>
+                            </li>
+
+                        <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Catégorie
+                                  </a>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Sneakers</a>
+                                    <a class="dropdown-item" href="#">Vêtement</a>
+                                    <a class="dropdown-item" href="#">Accessoires</a>
+                                  </div>
+                            </li>
+                            <li class="nav-item">
+                                  <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="Rechercher">
+                                    <button class="btn btn-outline-success my-2 my-sm-0 loupe" type="submit"><img src="logo/loupe.png" width=30 height=30></button>
+                                  </form>
+                            </li>
+                          </ul>
+                          
+                      </div>
+                      
+                  </div>
+                  
+            </nav>
+
+
+
+
+            <header>
+                <div class= "container entete">
+                    <div class="row justify-content-center">
+                        <div class="col-md-auto">
+                            <h1>Création d'un compte MiddleMan</h1>   
+                        </div> 
+                    </div>
+                    
+                </div>
+            </header>
+
+
+
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-auto">
+                        <form method="post" action="#">
+                            <div class="form-group">
+                                <label for="prenom"></label>
+                                <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+                                <label for="nom"></label>
+                                <input type="text" class="form-control" id="nom" placeholder="Nom">
+                                <label for="adressemailconnection"></label>
+                                <input type="email" class="form-control" id="adressemailconnection" placeholder="Adresse mail">
+                                <label for="motdepasseconnection"></label>
+                                <input type="password" class="form-control" id="motdepasseconnection" placeholder="Mot de passe">
+                                <label for="datenaissance"></label>
+                                <input type="password" class="form-control" id="motdepasseconnection" placeholder="Confirmez le mot de passe">
+                                <label for="datenaissance"></label>
+                                <input type="date" class="form-control" id="datenaissance" placeholder="JJ/MM/AAAA">
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class = "col-md-auto">
+                                    <button type="submit" class="btn btn-primary bouton-co">Créer</button>
+                                </div>
+                            </div>
+                        </form>
+                      
+                    </div> 
+                </div>
+            </div>
+
+
+
+
+
+                
+            <footer>
+                <div id="footer" class = "container-fluid footix">
+                    <div class = "row l1">
+                        <div class = "col-md-3">
+                        </div>
+                        <div class = "col-md-6 ">
+                            <p><a href="index.html">FAQ</a></p>
+                            <p><a href="index.html">Qui sommes nous</a></p>
+                            <p><a href="index.html">Aide</a></p>
+                        </div>
+                        <div class = "col-md-3">
+                        </div>
+                    </div>
+                    <div class = "row l2">
+                        <div class = "col-md-3">
+                        </div>
+                        <div class = "col-md-6">
+                            <a href="www.facebook.com"><img src="logo/facebook-logo-button.svg" alt="facebook" title = "Facebook: middleman"</a>
+                            <a href="www.facebook.com"><img src="logo/twitter-logo-button.svg" alt="twitter" title = "Twitter: middleman "</a>
+                            <a href="www.facebook.com"><img src="logo/instagram-logo.svg" alt="instagram" title = "Insta: middleman"</a>
+                        </div>
+                    </div>
+                
+                </div>
+            </footer>
+        </div>
+        
+    
+    </body>
+
+
+</html>
