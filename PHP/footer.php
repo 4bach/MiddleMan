@@ -4,9 +4,9 @@
 			<div class = "col-md-3">
 			</div>
 			<div class = "col-md-6 ">
-				<p><a href="index.html">FAQ</a></p>
-				<p><a href="index.html">Qui sommes nous</a></p>
-				<p><a href="index.html">Aide</a></p>
+				<p><a href="index.php">FAQ</a></p>
+				<p><a href="index.php">Qui sommes nous</a></p>
+				<p><a href="index.php">Aide</a></p>
 			</div>
 			<div class = "col-md-3">
 			</div>

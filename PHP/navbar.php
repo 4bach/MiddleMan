@@ -2,12 +2,12 @@
 <!-- Brand -->
 <div class="container">
     <div class="col-md-2">
-        <a class="navbar-brand" href="index.html"><img src="logo/middleman-logo.svg" width="120" height="120"></a>
+        <a class="navbar-brand" href="index.php"><img src="logo/middleman-logo.svg" width="120" height="120"></a>
     </div>
     <div class="col-md-push-10">
         <ul class="navbar-nav">
           <li class="nav-item">
-                <a class="nav-link" href="connexion.html">Connexion/Inscription</a>
+                <a class="nav-link" href="connexion.php">Connexion/Inscription</a>
           </li>
 
       <!-- Dropdown -->
